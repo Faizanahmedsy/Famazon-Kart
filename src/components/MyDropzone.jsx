@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 
 
-
+//This is to drag and drop files
 function MyDropzone() {
   const onDrop = useCallback((acceptedFiles) => {
     // Do something with the files
